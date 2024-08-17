@@ -1,3 +1,4 @@
+// package palindroneNumber;
 class palindroneNumber {
 
     public boolean isPalindrome(int x) {
