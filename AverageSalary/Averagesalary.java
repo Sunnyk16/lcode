@@ -21,6 +21,7 @@ public class Averagesalary {
             }
     
             sum = sum - min - max ;
+            // System.out.println(sum);
     
             double ans = (double)sum/(salary.length-2);
             return ans ;
