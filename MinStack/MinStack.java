@@ -10,36 +10,36 @@ class MinStack {
     }
 
     public void push(int val) {
-        if (st.isEmpty() || min.peek() >= val) {
+        if(st.size()==0 || min.peek()>=val){
             min.push(val);
+
+
         }
         st.push(val);
+
+          
     }
 
     public void pop() {
-        if (st.isEmpty()) {
-            throw new IllegalStateException("Stack is empty");
-        }
-        int ele1 = st.pop();
+        int ele1= st.pop();
         int ele2 = min.peek();
-
-        if (ele1 == ele2) {
+        if(ele1==ele2){
             min.pop();
         }
+        
     }
 
     public int top() {
-        if (st.isEmpty()) {
-            throw new IllegalStateException("Stack is empty");
-        }
         return st.peek();
+        
     }
 
     public int getMin() {
-        if (min.isEmpty()) {
+        if(min.size()==0){
             throw new IllegalStateException("Stack is empty");
         }
         return min.peek();
+        
     }
 
     public static void main(String[] args) {
