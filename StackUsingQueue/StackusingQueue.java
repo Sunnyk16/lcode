@@ -2,43 +2,56 @@
 
 import java.util.LinkedList;
 import java.util.Queue;
+import javax.management.QueryExp;
 
 public class StackusingQueue {
     
     
-    private final Queue<Integer> main;
-    private final Queue<Integer> helper;
+    private  Queue<Integer> main;
+    private Queue<Integer> helper;
+    
 
     public StackusingQueue() {
-        main = new LinkedList<>();
+        main  = new LinkedList<>();
         helper = new LinkedList<>();
+
     }
 
     public void push(int x) {
-    //   moving all elements from main to helper
-        while(!main.isEmpty()){
-          helper.add(main.remove());
+        //   moving all elements from main to helper
+        while(main.size()!=0){
+            helper.add(main.remove());
         }
-    //   add x in main queue
-
+        
+        //   add x in main queue
         main.add(x);
-    //   moving all elements from helper to main
-
-        while(!helper.isEmpty()){
+        
+        //   moving all elements from helper to main
+        while(helper.size()!=0){
             main.add(helper.remove());
         }
+        
     }
 
     public int pop() {
         return main.remove();
+
+        
     }
 
-    public int top() {
+    public int top() {  
         return main.peek();
+        
     }
 
     public boolean empty() {
-        return main.isEmpty();
+        if(main.size()==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+        
     }
     public static void main(String[] args) {
         StackusingQueue obj = new StackusingQueue();
@@ -58,7 +71,7 @@ public class StackusingQueue {
             System.out.println(obj.top());
         } catch (Exception e) {
             System.out.println("Stack is empty");
-        }
+        } 
     }
 }
 
