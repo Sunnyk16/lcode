@@ -13,6 +13,7 @@ public class maxAscendingSum {
                     max = Math.max(max , currmax);
                     currmax = nums[i];
                 }
+                // System.out.println("max : "+max+" currmax : "+currmax);
             }
              max = Math.max(max , currmax);
              return max ;
