@@ -17,7 +17,9 @@ public class majaorityElement {
         majaorityElement me = new majaorityElement();
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
         System.out.println(me.majorityElement(nums));
-        
+        int[] nums2 = {3, 3, 4, 2, 4, 4, 2, 4, 4};
+        System.out.println(me.majorityElement(nums2));
+
     }
     
     
