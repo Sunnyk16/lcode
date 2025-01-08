@@ -9,7 +9,7 @@ class altiutde{
             return ans;
         }
         public static void main(String[] args) {
-            int[] gain = {-5,1,5,0,-7};
+            int[] gain = {-5,1,6,0,-7};
             System.out.println(largestAltitude(gain));
         }
     
