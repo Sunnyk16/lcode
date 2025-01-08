@@ -1,4 +1,4 @@
-class altiutde{
+class altitude{
     
         public int largestAltitude(int[] gain) {
             int ans = 0, h = 0;
@@ -9,8 +9,10 @@ class altiutde{
             return ans;
         }
         public static void main(String[] args) {
-            int[] gain = {-5,1,6,0,-7};
-            System.out.println(largestAltitude(gain));
+            int[] gain = {-5,1,5,0,-7};
+            altitude obj = new altitude();
+            System.out.println(obj.largestAltitude(gain));
         }
+        
     
 }
