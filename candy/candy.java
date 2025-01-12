@@ -28,7 +28,7 @@ public class candy {
         }
         public static void main(String[] args) {
             candy obj = new candy();
-            int[] ratings = {1, 0, 3};
+            int[] ratings = {2, 0, 3};
             System.out.println(obj.candy(ratings));
         }
     
