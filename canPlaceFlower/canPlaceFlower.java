@@ -15,7 +15,7 @@ public class canPlaceFlower {
 
     public static void main(String[] args) {
         canPlaceFlower cpf = new canPlaceFlower();
-        int[] flowerbed = {1, 0, 0, 0, 2};
+        int[] flowerbed = {1, 0, 0, 0, 1};
         System.out.println(cpf.canPlaceFlowers(flowerbed, 1));
     }
     
