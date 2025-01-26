@@ -34,7 +34,7 @@ public class rotateImageMatrix {
 
     public static void main(String[] args) {
         rotateImageMatrix rm = new rotateImageMatrix();
-        int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 8 } };
         rm.rotate(matrix);
         for (int[] row : matrix) {
             for (int val : row) {
