@@ -37,8 +37,8 @@ public class postorderTraversal {
         
     }
     public static void main(String[] args) {
-        int[] inorder = {9,3,15,20,7};
-        int[] postorder = {9,15,7,20,3};
+        int[] inorder = {9,3,15,20,8};
+        int[] postorder = {9,15,8,20,3};
         postorderTraversal pt = new postorderTraversal();
         TreeNode root = pt.buildTree(inorder, postorder);
         System.out.println(root.val);
