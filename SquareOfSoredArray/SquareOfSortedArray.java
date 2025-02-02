@@ -25,7 +25,7 @@ public class SquareOfSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] nums = { -4, -1, 0, 2, 10 };
+        int[] nums = { -4, -1, 0, 3, 10 };
         SquareOfSortedArray sosa = new SquareOfSortedArray();
         int[] ans = sosa.squareArray(nums);
         for (int i : ans) {
