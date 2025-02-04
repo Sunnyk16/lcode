@@ -52,7 +52,7 @@ public class sortedListTobst {
         public static void main(String[] args) {
             sortedListTobst obj = new sortedListTobst();
             ListNode head = obj.new ListNode(-10);
-            head.next = obj.new ListNode(-3);
+            head.next = obj.new ListNode(-2);
             head.next.next = obj.new ListNode(0);
             head.next.next.next = obj.new ListNode(5);
             head.next.next.next.next = obj.new ListNode(9);
