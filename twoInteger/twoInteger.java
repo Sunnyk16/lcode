@@ -28,7 +28,7 @@ public class twoInteger {
         public static void main(String[] args) {    
             twoInteger ti = new twoInteger();
             int a = 9;
-            int b = 3;
+            int b = 2;
             System.out.println(ti.divide(a, b));
         }
     
