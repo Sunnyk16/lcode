@@ -32,7 +32,7 @@ public class StringCompress {
     public static void main(String[] args) {
         StringCompress sc = new StringCompress();
         Solution s = sc.new Solution();
-        char[] chars = {'a','a','b','b','c','c','c'};
+        char[] chars = {'a','a','b','b','c','c'};
         System.out.println(s.compress(chars));
     }    
     
