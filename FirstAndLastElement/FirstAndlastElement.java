@@ -50,7 +50,7 @@ public class FirstAndlastElement {
         }
         public static void main(String[] args) {
             FirstAndlastElement obj = new FirstAndlastElement();
-            int[] nums = {5,7,7,8,8,10};
+            int[] nums = {5,7,7,8,10};
             int target = 8;
             int[] ans = obj.searchRange(nums, target);
             System.out.println(ans[0]+" "+ans[1]);
