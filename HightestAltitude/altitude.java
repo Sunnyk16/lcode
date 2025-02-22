@@ -9,7 +9,7 @@ class altitude{
             return ans;
         }
         public static void main(String[] args) {
-            int[] gain = {-5,1,5,0,-6};
+            int[] gain = {-5,1,4,0,-6};
             altitude obj = new altitude();
             System.out.println(obj.largestAltitude(gain));
         }
