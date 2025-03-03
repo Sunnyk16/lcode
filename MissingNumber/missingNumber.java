@@ -13,7 +13,7 @@ public class missingNumber {
     }
     
     public static void main(String[] args) {
-        int[] nums = {3,0,1};
+        int[] nums = {3,0,2};
         missingNumber mn = new missingNumber();
         System.out.println(mn.missingNumber(nums));
     }
