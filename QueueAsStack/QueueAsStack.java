@@ -43,8 +43,8 @@ public class QueueAsStack {
         QueueAsStack obj = new QueueAsStack();
         obj.push(3);
         obj.push(2);
-        obj.push(1);
         obj.push(4);
+        obj.push(1);
         obj.push(5);
         obj.push(6);
         obj.pop();
