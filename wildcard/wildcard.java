@@ -25,7 +25,7 @@ public class wildcard {
 
     public static void main(String[] args) {
         String s = "adceb";
-        String p = "*a*b";
+        String p = "*a*b*b";
         wildcard wc = new wildcard();
         System.out.println(wc.isMatch(s, p));
     }
