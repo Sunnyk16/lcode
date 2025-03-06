@@ -21,7 +21,7 @@ public class SearchMatrix {
     }
     public static void main(String[] args) {
         SearchMatrix sm=new SearchMatrix();
-        int[][] matrix={{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        int[][] matrix={{1,3,5,7},{10,13,16,20},{23,30,34,60}};
         int target=3;
         System.out.println(sm.searchMatrix(matrix, target));
     }
