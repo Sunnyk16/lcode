@@ -17,7 +17,7 @@ public class MaxProfit {
     
     public static void main(String[] args) {
         // Example usage of maxProfit method
-        int[] prices = {7, 1, 5, 3, 6, 4};
+        int[] prices = {7, 1, 5, 8, 6, 4};
         Solution sol = new Solution();
         int maxProfit = sol.maxProfit(prices);
         System.out.println(maxProfit);
