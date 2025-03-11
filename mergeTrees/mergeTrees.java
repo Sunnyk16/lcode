@@ -43,7 +43,7 @@ public class mergeTrees {
         TreeNode root2 = new TreeNode(2);
         root2.left = new TreeNode(1);
         root2.right = new TreeNode(3);
-        root2.left.right = new TreeNode(4);
+        root2.left.right = new TreeNode(6);
         root2.right.right = new TreeNode(7);
     
         mergeTrees finder = new mergeTrees();
