@@ -25,6 +25,6 @@ public class MinAddToMakePalindrone {
     }
     public static void main(String[] args) {
         MinAddToMakePalindrone obj = new MinAddToMakePalindrone();
-        System.out.println(obj.minAddToMakeValid("())"));
+        System.out.println(obj.minAddToMakeValid("(())"));
     }
 }
