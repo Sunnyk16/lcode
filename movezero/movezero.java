@@ -16,7 +16,7 @@ public class movezero {
         }
         public static void main(String[] args) {
             movezero solution = new movezero();
-            int[] nums = {0, 1, 0, 3, 12};
+            int[] nums = {0, 1, 0, 3,5, 12};
             solution.moveZeroes(nums);
             for (int num : nums) {
                 System.out.print(num + " ");
