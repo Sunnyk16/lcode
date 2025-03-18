@@ -38,6 +38,7 @@ public class mergeBetweenLL {
         head.next.next.next.next = new ListNode(0);
         head.next.next.next.next.next = new ListNode(4);
         head.next.next.next.next.next.next = new ListNode(5);
+        head.next.next.next.next.next.next.next = new ListNode(6);
         mergeBetweenLL obj = new mergeBetweenLL();
         ListNode res = obj.mergeNodes(head);
         while(res!=null){
