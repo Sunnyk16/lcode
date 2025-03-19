@@ -18,7 +18,7 @@ public class maximumAscendingSubArray {
     }
     public static void main(String[] args) {
         maximumAscendingSubArray obj = new maximumAscendingSubArray();
-        int[] nums = {10,20,30,5,10,50};
+        int[] nums = {10,20,30,5,10,40,50};
         System.out.println(obj.maxAscendingSum(nums));
     }
     
