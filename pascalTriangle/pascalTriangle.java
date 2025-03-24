@@ -18,7 +18,7 @@ public class pascalTriangle {
     }
     public static void main(String[] args) {
         pascalTriangle p = new pascalTriangle();
-        System.out.println(p.getRow(3));
+        System.out.println(p.getRow(4));
     }
 
     
