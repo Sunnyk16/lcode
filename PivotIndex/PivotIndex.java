@@ -16,7 +16,7 @@ public class PivotIndex {
     }
     public static void main(String[] args) {
         PivotIndex pi = new PivotIndex();
-        int[] nums = {1,7,3,2,6,5,6};
+        int[] nums = {1,7,3,2,6,5,6,7,8,9};
         System.out.println(pi.pivotIndex(nums));
     }
     
