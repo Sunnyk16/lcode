@@ -1,6 +1,6 @@
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 class permutation{
     
@@ -32,7 +32,7 @@ class permutation{
             }
         }
         public static void main(String[] args) {
-            int[] nums = {1, 2, 3};
+            int[] nums = {1, 2, 3,4};
             permutation p = new permutation();
             System.out.println(p.permute(nums));
         }
