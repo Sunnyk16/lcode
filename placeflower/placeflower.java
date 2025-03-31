@@ -14,7 +14,7 @@ class placeflower {
     }
     public static void main(String[] args) {
         placeflower solution = new placeflower();
-        int[] candies = {2, 3, 5, 1, 3};
+        int[] candies = {2, 3, 5, 1, 3,1};
         int extraCandies = 3;
         List<Boolean> result = solution.kidsWithCandies(candies, extraCandies);
         System.out.println(result);
