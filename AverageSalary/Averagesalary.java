@@ -29,7 +29,7 @@ public class Averagesalary {
     }
     public static void main(String[] args) {
         Averagesalary obj = new Averagesalary();
-        int[] salary = { 4000,3000,1000,2000 ,5000};
+        int[] salary = { 4000,3000,1000,2000 ,5000,6000};
         System.out.println(obj.average(salary));
     }
     
