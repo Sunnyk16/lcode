@@ -21,7 +21,7 @@ public class countsay {
         }
         public static void main(String[] args) {
             countsay cs = new countsay();
-            System.out.println(cs.countAndSay(4));
+            System.out.println(cs.countAndSay(5));
         }
     
     
