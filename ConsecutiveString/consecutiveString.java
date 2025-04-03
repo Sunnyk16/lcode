@@ -22,7 +22,7 @@ public class consecutiveString {
     }
     public static void main(String[] args) {
         consecutiveString cs = new consecutiveString();
-        String s = "leetcode";
+        String s ="apple";
         System.out.println(cs.maxPower(s));
     }
     
