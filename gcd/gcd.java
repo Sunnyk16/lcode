@@ -15,7 +15,7 @@ public class gcd {
         }
         public static void main(String[] args) {
             gcd g = new gcd();
-            System.out.println(g.gcdOfStrings("ABCABC", "ABC"));
+            System.out.println(g.gcdOfStrings("ABCABCABC", "ABC"));
         }
     
     
