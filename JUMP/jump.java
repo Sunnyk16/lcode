@@ -1,4 +1,4 @@
-package JUMP;
+
 
 public class jump {
     
@@ -14,7 +14,7 @@ public class jump {
         }
         public static void main(String[] args) {
             jump solution = new jump();
-            int[] nums = {2, 3, 1, 1, 4};
+            int[] nums = {2, 3, 1, 1, 4,4,3};
             boolean result = solution.canJump(nums);
             System.out.println(result);
         }
