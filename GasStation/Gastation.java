@@ -17,8 +17,8 @@ public class Gastation {
             return s < 0 ? -1 : i;
         }
         public static void main(String[] args) {
-            int[] gas = {1,2,3,4,5};
-            int[] cost = {3,4,5,1,2};
+            int[] gas = {1,2,3,4,5,6};
+            int[] cost = {3,4,5,1,2,6};
             Gastation obj = new Gastation();
             System.out.println(obj.canCompleteCircuit(gas, cost));
         }
