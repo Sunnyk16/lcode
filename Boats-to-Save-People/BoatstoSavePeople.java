@@ -27,7 +27,7 @@ public class BoatstoSavePeople {
     }
     public static void main(String[] args){
         BoatstoSavePeople bsp = new BoatstoSavePeople();
-        int[] people = {3,2,2,1};
+        int[] people = {4,3,2,2,1};
         int limit = 3;
         System.out.println(bsp.numRescueBoats(people, limit));
     }
