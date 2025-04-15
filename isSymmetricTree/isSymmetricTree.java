@@ -54,6 +54,8 @@ public class isSymmetricTree {
         root.left.right = new TreeNode(4);
         root.right.left = new TreeNode(4);
         root.right.right = new TreeNode(3);
+        root.left.right.left = new TreeNode(5);
+        root.right.left.right = new TreeNode(5);
         
 
 
