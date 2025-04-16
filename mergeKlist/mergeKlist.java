@@ -52,6 +52,8 @@ public class mergeKlist {
         lists[1].next.next = new ListNode(4);
         lists[2] = new ListNode(2);
         lists[2].next = new ListNode(6);
+        lists[2].next.next = new ListNode(7);
+        lists[2].next.next.next = new ListNode(8);
         mergeKlist obj = new mergeKlist();
         ListNode res = obj.mergeKLists(lists);
         while(res!=null){
