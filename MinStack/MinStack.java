@@ -56,6 +56,8 @@ class MinStack {
         obj.pop();
         obj.pop();
         obj.pop();
+        obj.pop();
+        obj.pop();
         try {
             System.out.println(obj.getMin());
         } catch (IllegalStateException e) {
